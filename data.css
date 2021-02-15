@@ -1,0 +1,133 @@
+body
+    {
+        margin: 0;
+        justify-content: center;
+        display: flex;
+        padding-top: 70px;
+    }
+form
+    {
+        width: 30%;
+        height: 500px;
+        background-color: rgb(9, 27, 45);
+        display: flexbox;
+        text-align: center;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        box-shadow: 1px 1px black;
+        border: 1px solid rgb(100, 58, 58);
+        margin: 1px;
+        padding: 10px;
+        border-radius: 5px;
+        position: relative;
+    }
+.center
+    {
+        width: 30%;
+        height: 500px;
+        background-color: rgb(9, 27, 45);
+        display: flexbox;
+        text-align: center;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        box-shadow: 1px 1px black;
+        border: 1px solid rgb(100, 58, 58);
+        margin: 1px;
+        padding: 10px;
+        border-radius: 5px;
+        position: relative;
+    }
+.center h1
+    {
+        text-shadow: 1px 0px black;
+        padding-top: 10px;
+        /* padding-bottom: 30px; */
+        background-color: rgb(9, 27, 45);
+        
+    }
+.company
+    {    
+        /* background-color: aqua;  */
+        text-align: left;
+        padding-top: 10px;  
+        padding-bottom: 30px;    
+    }
+.company label
+    {
+        display: block;
+        padding-bottom: 10px;
+        font-weight: bolder;
+    }
+.company input
+    {
+        width: 100%;
+        margin-bottom: 10px;
+        display: block;
+        background: transparent;
+        outline: none;
+        border: none;
+        border-bottom:solid 2px rgb(204, 0, 82);
+        color: whitesmoke;
+    }
+.button
+    {
+        width: 20%;
+        text-align: center;
+        display: flexbox;
+        /* background-color: black; */
+        padding-top: 100px;
+    }
+#creat
+    {
+        width: 90%;
+        color: rgb(164, 141, 141);
+        background-color: rgb(185, 187, 192); 
+        color: white; 
+        font-weight: bold;
+        border: solid 1px rgb(191, 192, 193);
+        border-radius: 9px;
+        padding: 5px;      
+    }
+
+#update
+    {
+        width: 90%;
+        color: rgb(164, 141, 141);
+        background-color: rgb(185, 187, 192); 
+        color: white; 
+        font-weight: bold;
+        border: solid 1px rgb(191, 192, 193);
+        border-radius: 9px;
+        padding: 5px;
+    }      
+
+#delect
+    {
+        width: 90%;
+        color: rgb(164, 141, 141);
+        background-color: rgb(185, 187, 192); 
+        color: white; 
+        font-weight: bold;
+        border: solid 1px rgb(191, 192, 193);
+        border-radius: 9px;
+        padding: 5px;
+    }      
+input[type="submit"], input[type="button"]
+    {
+        background-color: brown;
+        right: 200px;
+        visibility: hidden;
+    }
+#sub_mit
+    {
+        position: absolute;
+    }
+#up_date
+    {
+        position: absolute;
+    }
+#de_lect
+    {
+        position: absolute;
+        
+    }

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Main page</title>
+
+        <link rel="stylesheet" href="data.css">
+    </head>
+    <body>
+        <div class="button">                
+            <button id="creat" onclick="creat()">Create</button> <br><br>
+            <button id="update"  onclick="update()">Update</button> <br><br>
+            <button id="delect" onclick="delect()">Delect</button>
+        </div>
+        <form action="data.cs" class="center">
+            <!-- <div class="center"> -->
+                <h1 id="heading">Creat data</h1>
+                <div class="company" id="com_name">
+                    <label for="com_name">Company Name</label>
+                    <input type="text" name="c_name" id="com_name" placeholder="Enter company name">
+                </div>
+
+                <div class="company" id="ceo_name">
+                    <label for="com_ceo">CEO Name</label>
+                    <input type="text" name="c_ceo" id="com_ceo" placeholder="Enter CEO of company">
+                </div>
+
+                <div class="company" id="y_income">
+                    <label for="com_name">Yearly Income (Cr)</label>
+                    <input type="number" name="c_income" id="com_income" placeholder="e.x 5">
+                </div>
+                
+                <div>
+                    <input type="submit" value="Submit" id="sub_mit">
+                    <input type="submit" value="Update" id="up_date">
+                    <input type="button" value="Delect" id="de_lect">
+                </div>
+
+            <!-- </div> -->
+        </form>
+    </body>
+    <script src="data.js"></script>
+</html>
